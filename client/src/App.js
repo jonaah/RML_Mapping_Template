@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ImportTemplateClient from './moduleTemplates/ImportTemplateClient';
 import DragAndDropTemplate from './moduleTemplates/DragAndDropTemplate';
 import DataImportTemplate from './moduleTemplates/DataImportTemplate';
+import DragAndDropBox from './moduleTemplates/DragAndDropBox';
 
 import './App.css';
 
@@ -35,7 +36,7 @@ function App() {
         <DataImportTemplate {...data} />
       </div>
       <div className="template-container">
-        {/* Ein weiteres Template oder Inhalt */}
+        <DragAndDropBox />
       </div>
       <div className="template-container">
         {/* Ein weiteres Template oder Inhalt */}
