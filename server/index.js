@@ -6,7 +6,7 @@ app.use(express.static(__dirname));
 
 
 app.get("/api", (req, res) => {
-    res.json({ "users" : ["John", "Doe", "Jane", "tet"] , "title": "Import Template", "items": ["Item 1", "Item 2", "Item 3"], "onNew": "onNew", "onImport": "onImport" });
+    res.json({ "users" : ["John", "Doe", "Jane", "tet"] , "title": "Import Template", "items": ["Item 1", "Item 2", "Item 3", "Item4", "Item5", "Item6", "Item 7", "Item 8", "Item9", "Item10"], "onNew": "onNew", "onImport": "onImport" });
 
 });
 

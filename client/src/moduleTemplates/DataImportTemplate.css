@@ -1,0 +1,86 @@
+/* Box styles */
+.DataImportTemplate {
+  width: 440px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* Title styles */
+.box-title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #007bff;
+}
+
+/* Scrollable list */
+.item-list {
+  flex: 1;
+  overflow-y: auto; /* Scroll erscheint nur, wenn nötig */
+  margin: 0 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: #f9f9f9;
+}
+
+.item {
+  padding: 5px;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.item:hover {
+  background-color: #f0f0f0;
+}
+
+.item.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Remove the last item's bottom border for a clean look */
+.item:last-child {
+  border-bottom: none;
+}
+
+/* Buttons section */
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-top: 1px solid #e0e0e0;
+  background-color: #f8f8f8;
+}
+
+.button {
+  width: 120px;
+  height: 30px;
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button.new {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.button.import {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.button:hover {
+  opacity: 0.9;
+}

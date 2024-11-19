@@ -1,0 +1,31 @@
+.drag-and-drop-template {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .drag-and-drop-template h2 {
+    text-align: center;
+  }
+  
+  .drag-and-drop-template ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .drag-and-drop-template li {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: grab;
+  }
+  
+  .drag-and-drop-template li.dragging {
+    opacity: 0.5;
+    cursor: grabbing;
+  }

@@ -1,0 +1,75 @@
+.datatype-mappings {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+    position: relative;
+    width: 350px;
+    height: 240px;
+
+  }
+  
+  .datatype-mappings h2 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .datatype-mappings ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .datatype-mappings li {
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .datatype-mappings li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .datatype-mappings li.selected {
+    background-color: #d0d0d0;
+  }
+  
+  .datatype-mappings .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #ccc;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .datatype-mappings .arrow.open {
+    transform: translateY(-50%) rotate(180deg);
+  }
+  
+  .datatype-mappings .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .datatype-mappings button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .datatype-mappings button:hover {
+    background-color: #3e8e41;
+  }
